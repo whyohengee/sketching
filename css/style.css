@@ -1,0 +1,46 @@
+/*****
+Basic reset
+*********************************************/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*****
+Grid
+*********************************************/
+/*****
+Columns
+*********************************************/
+/*****
+Into thirds
+**********/
+/*****
+Into quarters
+**********/
+/*****
+Into fifths
+**********/
+/*****
+Into eighths
+**********/
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  font-size: 16px; }
+
+.grid::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.grid > * {
+  padding: .25rem;
+  float: left; }
